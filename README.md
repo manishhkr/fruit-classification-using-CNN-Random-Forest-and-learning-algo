@@ -1,3 +1,4 @@
  In fruit classification, CNNs can be trained on a dataset of fruit images, learning to recognize patterns and features that distinguish one fruit from another.
  Random Forest can be applied by extracting relevant features from fruit images and using them as input to train multiple decision trees. The ensemble nature of Random Forest helps improve robustness and accuracy.
- The general learning algorithm would involve the extraction of relevant features from fruit images and the training of a model to recognize patterns and make predictions based on these features.
+Transfer Learning is Leveraging a pre-trained deep learning model for feature extraction,Fine-tuning the pre-trained model on the fruit dataset to adapt to specific classification tasks,Allows the model to benefit from knowledge gained on a larger, general dataset.
+Gradio UI Provides a user-friendly interface for interacting with the fruit classification system.Users can upload an image of a fruit through the UI.The system will employ the CNN, Random Forest, and Transfer Learning models to predict the fruit type.Display the results along with confidence scores for each model.
